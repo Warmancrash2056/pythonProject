@@ -1,0 +1,51 @@
+#List Function#
+
+# List is a built-in system that can hold multiple values. 
+#there are 4 types of list function in python.
+
+# List are the most basic type of list function that can be changed in any which way.
+#they can be reordered, # duplicated and change the values once created.
+
+# Example #
+
+names = ['Davaughn', 'Jake', 'Kim']
+print(names)
+# Output ['Davaughn', 'Jake', 'Kim']
+
+# How to acess items in list function #
+
+# List items can be acessed through indexing both negative and positive. also by checking items exist in the list.
+# Positive Indexing and Negative Indexing
+print(names[0]) # Output Davaughn
+print(names[1]) # Output Jake
+print(names[-1]) # Output Kim as the name is the last in the list
+
+# Indexing mutliple elements
+# When multi Indexing rememeber that the last number in postive (3) will not be output and aswell the negative index (-3)
+names = ['jason', 'mat' , 'john', 'china']
+print(names[1:3])
+print(names[-3:-1])
+
+# List can be used to store multiple data types both even in the same list function
+# Example #
+multi_data_types = ['happy', 40 , 0.5, False]
+print(multi_data_types)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
